@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+if (PHP_SAPI !== 'cli') {
+  echo 'bin/m2t must be run as a CLI application';
+  exit(1);
+}
+
+try {
+  require __DIR__ . '/../m2t.php';
+} catch (\Exception $e) {
+  echo 'Autoload error: ' . $e->getMessage();
+  exit(1);
+}
