@@ -1,5 +1,5 @@
 {
-  "name": "magento2translations/compile",
+  "name": "piotrekkaminski/compile",
   "description": "Build script for the translations",
   "type": "project",
   "license": "GPL-3.0",

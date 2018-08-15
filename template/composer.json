@@ -1,6 +1,6 @@
 {
-    "name": "magento2translations/language_{{ language|lower }}",
-    "description": "{{ languageNameEn }} ({{ languageNameLocal }}) Magento2 Language Pack ({{ language }}) - From Magento2Translations",
+    "name": "piotrekkaminski/language_{{ language|lower }}",
+    "description": "{{ languageNameEn }} ({{ languageNameLocal }}) Magento2 Language Pack ({{ language }})",
     "homepage": "http://magento2translations.github.io/",
     "license": [
         "MIT"
